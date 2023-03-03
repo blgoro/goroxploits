@@ -1,0 +1,203 @@
+<html>
+<head>
+	<meta content="text/html;charset=UTF-8" http-equiv="Content-type" />
+	<meta content="NO-CACHE" http-equiv="CACHE-CONTROL" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/simple-notify.min.css" />
+	<title>GoRo xPloits PS4</title>
+	<link href="" rel="stylesheet" type="text/css" /><script src=""></script><script src=""></script><script src=""></script><script>/*$(function(){$("#mg").sortable();});*/</script>
+</head>
+<body bgcolor="#303030" onresize="resizeEvent()">
+<div class="top_line">
+<div class="top_line" style="background-color: rgb(0, 0, 0); position: absolute; top: 30px; right: 50px; left: 10px; height: 45px; width: 1881.59px; border-radius: 8px; box-shadow: rgb(16, 16, 16) 5px 5px 15px; color: rgb(240, 240, 240);">&nbsp;</div>
+
+<div class="smv" id="smv" style="font-size: 14px; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-caps: small-caps; font-family: helvetica; background-color: rgb(0, 0, 0); position: absolute; top: 30px; width: 140px; margin-top: 15px; left: 10px; text-align: center;"><font color="#d0d0d0">Goro xPloits</font></div>
+
+<div id="top_action" style="position: absolute; top: 30px; right: 50px; left: 150px; height: 50px; color: rgb(240, 240, 240);">
+<div id="top_buttons"><font face="Helvetica"><a href="/goroxploits/PS3/index.html" style="color: rgb(224, 224, 224); float: left; margin: 6px 0px 8px 15px; width: 85px; background: linear-gradient(rgb(52, 152, 219), rgb(4, 52, 82)) rgb(18, 118, 185); border-radius: 5px; font-family: Arial; font-size: 20px; padding: 5px 15px; box-shadow: rgb(16, 16, 16) 2px 2px 5px; overflow: hidden; white-space: nowrap; height: 24px; cursor: pointer;">Ps3</a><a href="/goroxploits/PS4/index.html" style="color: #FF0000; float: left; margin: 6px 0px 8px 15px; width: 85px; background: linear-gradient(rgb(52, 152, 219), rgb(4, 52, 82)) rgb(18, 118, 185); border-radius: 5px; font-family: Arial; font-size: 20px; padding: 5px 15px; box-shadow: rgb(16, 16, 16) 2px 2px 5px; overflow: hidden; white-space: nowrap; height: 24px; cursor: pointer;">Ps4</a></font></div>
+</div>
+
+<div class="propfont" id="content" style="font-family: &quot;Courier New&quot;, Courier, monospace; border: thin dashed rgb(0, 102, 153); position: absolute; top: 85px; left: 160px; right: 10px; padding: 10px; background: rgb(80, 80, 80); box-shadow: rgb(37, 37, 37) 12px 12px 50px; border-radius: 5px; margin: 4px; opacity: 0.98;">
+<div id="toolbox" style="color: rgb(240, 240, 240); position: absolute; bottom: -34px; right: 0px; zoom: 0.8;">&nbsp;</div>
+
+<div class="ui-sortable" id="mg" style="">
+<div id="page-wrap" style="">
+<center style="">
+<center style="color: rgb(240, 240, 240);"><b><font color="#ABABAB"></font></b></center>
+&nbsp;
+
+<body onload="go()">
+<h1 class="progress" id="progress">Jailbreak 9.00</h1>
+<hr>
+
+<br>
+<hr style="width: 50%"><h1 style="color:#00FF12;" >PAYLOADS</h1><hr style="width: 50%">
+
+<a href="goldhen.html" >
+    <button class="btn btn-main" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='GOLD - HEN V2.3B2 Para FW 9.00'";   type="button"><img class="icone" src="img/HenEnable.png" /><br> GOLD HEN V2.3B2 </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Vuelca tus juegos (se requiere una unidad USB exFAT)'"; onclick="load_AppDumper()"><button href="" class="btn" ><img class="icone" src="img/dumper.png" /><br> Dumper de juegos </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Accede a tu consola vía FTP'"; onclick="load_FTP()">
+  <button class="btn" href=""> <img class="icone" src="img/ftp.png" /><br> FTP </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Mover juegos instalados en HD interno a externo en EXFAT'"; onclick="load_App2USB()"><button class="btn" href="" ><img class="icone" src="img/app2usb.png" /><br> App-To-Usb </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Habilita algunas funciones especiales en la pestaña Juegos'";  onclick="load_TODEX()"><button class="btn" href=""><img class="icone" src="img/todex.png" /><br> To -  Dex </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Deshabilitar actualizaciones del sistema'"; onclick="load_DisableUpdates()"><button class="btn" href="" ><img class="icone" src="img/disableupdate.png" /><br> Deshabilitar Updates </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Habilitar actualizaciones del sistema'"; onclick="load_EnableUpdates()"><button href="" class="btn" ><img class="icone" src="img/enableupdate.png" /><br> Habilitar Updates </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Habilita algunas funciones especiales como enviar trucos'"; onclick="load_webrte()"><button href="" class="btn" ><img class="icone" src="img/rte.png" /><br> WebRTE </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='C. de seguridad de la base de datos de la consola en una unidad USB'"; onclick="load_BackupDB()"><button href="" class="btn" ><img class="icone" src="img/backup.png" /><br> Backup DB </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Restaurar c. de seguridad de la base de datos desde una unidad USB'"; onclick="load_RestoreDB()"><button href="" class="btn" ><img class="icone" src="img/restore.png" /><br> Restaurar DB </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Habilitar el historial del navegador'"; onclick="load_EnableBrowser()"><button class="btn" href="" ><img class="icone" src="img/enableupdate.png" /><br> Habilitar Browser </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Desactivar el historial del navegador'"; onclick="load_HistoryBlocker()"><button class="btn" href=""><img class="icone" src="img/disableupdate.png" /><br> Bloquear Historial </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Habilite algunas funciones en la pestaña Opciones de juegos'"; onclick="load_ps4debug()"><button class="btn" href="" ><img class="icone" src="img/ps4debug.png" /><br> PS4 Debug </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Salir del Modo IDU (Opción para Desarrolladores...) '"; onclick="load_ExitIDU()"><button class="btn" href="" ><img class="icone" src="img/history.png" /><br> Exit IDU </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Deshabilitar ASLR (aleatorización del diseño del espacio de direcciones)'"; onclick="load_DisableASLR()"><button class="btn" href="" ><img class="icone" src="img/disableupdate.png" /><br> Deshabilitar ASLR </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Volcado del kernel de la consola a una unidad USB'"; onclick="load_KernelDumper()"><button href="" class="btn" > <img class="icone" src="img/history.png" /><br> Kernel Dumper </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Cambiar la hora del reloj del núcleo de la consola'"; onclick="load_Kernelclock()"><button href="" class="btn" ><img class="icone" src="img/history.png" /><br> Kernel Clock </button></a>
+
+<a id="button-Payload" onmouseout="progress.innerHTML='Jailbreak 9.00'" onMouseOver="progress.innerHTML='Renombrar RIF 'falsos' a RIF 'oficiales''"; onclick="load_RIFRenamer()"><button href="" class="btn" ><img class="icone" src="img/keydumper.png" /><br> RIF Renaner </button></a>
+<hr><h1 style="color:#00FF12;" >Creditos a los creadores de estas herramientas, desconozco el nombre o nick de cada uno de ellos, pero todos los creditos y meritos son de ellos.</h1>
+
+<br><br>
+
+<script>
+
+
+
+function load_App2USB(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "app2usb.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_BackupDB(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "backup.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_AppDumper(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "appdumper.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_KernelDumper(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "kerneldumper.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_Kernelclock(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "kernelclock.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_RestoreDB(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "restore.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_DisableASLR(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "disableaslr.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_DisableUpdates(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "disableupdates.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_EnableUpdates(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "enableupdates.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_EnableBrowser(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "enablebrowser.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+function load_ExitIDU(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "exitidu.bin";
+    LoadviaGoldhen(PLfile);
+}
+  
+function load_FTP(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "ftp.bin";
+    LoadviaGoldhen(PLfile);
+}
+  
+function load_HistoryBlocker(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "historyblocker.bin";
+    LoadviaGoldhen(PLfile);
+}
+  
+function load_RIFRenamer(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "rifrenamer.bin";
+    LoadviaGoldhen(PLfile);
+}
+  
+
+function load_ToDex(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "todex.bin";
+    LoadviaGoldhen(PLfile);
+}
+function load_webrte(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "webrte.bin";
+    LoadviaGoldhen(PLfile);
+}
+function load_ps4debug(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "ps4debug.bin";
+    LoadviaGoldhen(PLfile);
+}
+function load_Linux1(){
+    progress.innerHTML="Cargando Payload Espere....";
+    PLfile = "LinuxLoader1gb.bin";
+    LoadviaGoldhen(PLfile);
+}
+
+</script>	 
+</div>
+</body>
+</center>
+</div>
+</div>
+</div>
+</div>
+
+<div class="propfont" id="content">
+<div id="mg"><i><font color="#FFFFFF"><b><script src="/dev_hdd0/xmlhost/game_plugin/common.js"></script></b></font></i></div>
+</div>
+</body>
+</html>

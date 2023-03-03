@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html manifest="Cache.manifest">
+<head>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" href="img/favicon.png" />
+<title>Jailbreak PS4 9.00</title>
+<link rel="stylesheet" href="css/main.css">
+<style > 
+html, body{
+    background: url('img/bg1.png');
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-color: #000;
+}
+
+.info {
+    overflow: hidden;
+    position: fixed;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #f00;
+    transform: translate(-50%, -50%);
+}
+
+</style>
+
+<script>
+
+function awaitpl() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("awaiting").style.display = "block";
+}
+function ghdone() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("done").style.display = "block";
+}
+ function allset() {
+        document.location.href = 'index.html';
+}
+
+</script>
+    <script src="payload.js"></script>
+    <script src="int64.js"></script>
+    <script src="rop.js"></script>
+    <script src="kexploit.js"></script>
+    <script src="webkit.js"></script>
+</head>
+
+<h1 class="msgs" id="msgs">Jailbreak PS4 9.00 GOLD-HEN 2.3B2</h1>
+<hr>
+
+<body onload="setTimeout(poc, 1500);">
+<script>
+if(document.cookie.indexOf('kex=0') >= 0)
+    document.location.href = 'index.html';
+</script>
+<div id="loader" class="info">¡Ejecutando Exploit, Espere!</div>
+<div id="awaiting" class="info" style="display:none;">¡Envíe el archivo de carga útil (exfat hax.img) al puerto 9020!</div>
+<div id="done" class="info" style="display:none;">¡Todo listo, ahora retire la unidad USB y buenas partidas!</div>
+</body>
+<script>
+</script>
+</html>
